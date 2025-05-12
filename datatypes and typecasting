@@ -1,0 +1,32 @@
+print("DATATYPES OF DIFFERENT VARIABLES AND TYPECASTING")
+name = "waseka iqbal"
+age = 15
+student= True
+weight= 47.5
+
+print("\n naming")
+print("students name:", name)
+print("data type of Name is:", type(name))
+
+print("\n AGE")
+print("students Age:", age)
+print("data type of Age is:", type(age))
+
+print("\n profession ")
+print(" waseka is a student:", student)
+print("data type of waseka is a student is:", type(student))
+
+print("\n Weight")
+print("students weight:", weight)
+print("data type of weight is:", type(weight))
+
+print("\n type casting")
+age = float (age)
+print(age)
+
+print("slicing and reverse slicing")
+myslice="waseka iqbal"
+do= myslice[7:10:1]
+rev=myslice[::-1]
+print(do)
+print(rev)
