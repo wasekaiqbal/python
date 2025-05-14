@@ -1,0 +1,10 @@
+print("MINI CHATBOT USING PYTHON")
+yourname=input("what is your name? \nanswer:")
+how=input("oh wow! really nice name,how are you? \nanswer:")
+age=input("oh!,can you tell me your age? \n Answer:")
+fact=input("do you know a really cool fact? \n Answer:")
+print("your name looks like this when reversed. cool right?")
+rev = yourname[::-1]
+print(rev)
+bye=("bye for now, thats all I could do!!!")
+
