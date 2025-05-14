@@ -1,0 +1,30 @@
+"""
+print("AVERAGE")
+t1=98
+t2=94
+t3=41
+t4=91
+t5=11 
+sum= t1+t2+t3+t4+t5
+print("the sum of the height of trees is:", sum)
+avg= sum/5
+print("the avearge height of numbers is:", avg)
+"""
+
+print("AMOUNT OF NOTES NEEDED TO WITHDRAW MONEY FROM ATM")
+
+amount = int(input("please input the amount of money you want to withdraw: "))
+
+note1 = amount//1000
+n2 = (amount%1000)//500
+n3 = ((amount%1000)%500)//200
+n4 = (((amount%1000)%500)%200)//100
+n5 = ((((amount%1000)%500)%200)%100)//50
+n6 = (((((amount%1000)%500)%200)%100)%50)//10
+
+print("notes of needed tk of tk 1000: ", note1)
+print("notes of needed tk of tk 500: ", n2)
+print("notes of needed tk of tk 200: ", n3)
+print("notes of needed tk of tk 100: ", n4)
+print("notes of needed tk of tk 50: ", n5)
+print("notes of needed tk of tk 10: ", n6)
