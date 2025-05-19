@@ -1,0 +1,10 @@
+print("lets determine your season according to average temperature")
+temp = float(input("enter your currant temperature: "))
+
+if temp > 28.0:
+    print(f"you temperature is {temp}°C, which means it is now summer time. \n 1. Stay safe. \n 2. be sure to stay hydrated. \n 3. apply sunscreen. \n 4. use umbrella while going out")
+
+else:
+    print(f"you temperature is {temp}°C, which means it is now winter time. \n 1. Stay safe. \n 2. wear proper clothing suitable for winter. \n 3. stay aware about commmon cold and viral fever. \n 4. avoid cold foods and desserts")
+
+    
