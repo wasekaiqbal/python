@@ -1,0 +1,8 @@
+print("LETS CALCULATE SQUARE, SQUARE ROOT OF NUMBER GIVEN BY THE USER")
+square = int(input("input the number for squaring: "))
+sq = square**2
+print("the square of given number is:", sq)
+
+square_root = int(input("input the number for square root: "))
+sqr = square_root**0.5
+print("the square root of given number is:", sqr)
