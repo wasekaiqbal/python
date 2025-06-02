@@ -1,0 +1,25 @@
+print("CHOOSE A RIDE SUITABLE FOR YOU \n 1.bike(suitable for a bachalor or when threr is a thin road) or \n 2.car (suitable for big family or many people)")
+
+choice = int(input("CHOOSE YOU RIDE. \n press 1 for bike and 2 for car. \n answer: "))
+if (choice ==1) :
+    print (" you have chosen bike. \n which type of bike do you want? \n 1.scooty or \n 2. scooter")
+
+    choice2 = int(input("CHOOSE YOUR BIKE. \n press 1 for scooty and 2 for scooter. \n answer: "))
+    if (choice2 == 1) :
+        print("order for scooty has been placed")
+    else:
+        print("order for scooter has been placed")
+
+elif (choice == 2 ) :
+    print (" you have chosen car. \n which type of bike do you want? \n 1.SUV  r \n 2. SEDAN")
+
+    choice3 = int(input("CHOOSE YOUR CAR. \n press 1 for SUV and 2 for SEDAN. \n answer: "))
+    if (choice3 == 1) :
+        print("order for SUV has been placed")
+    else:
+        print("order for SEDAN has been placed")
+
+else:
+    print("OOPSS!! wrong order selection. \n please try again")
+
+
