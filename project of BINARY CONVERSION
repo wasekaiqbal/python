@@ -1,0 +1,18 @@
+print("DECIMAL TO BINARY CONVERSION")
+
+num = int(input("enter an integer number to convert into binary: "))
+
+i = num
+binary = " "
+if i == 0 :
+    print(f"the binary number of {num} is 0 ")
+else:
+    while i > 0:
+        remainder = i % 2
+        binary = str(remainder) + binary #typecasting remainder
+        i = i //2 
+print(f"binary number of {num} is {binary}")
+
+
+        
+
