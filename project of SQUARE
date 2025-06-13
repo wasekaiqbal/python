@@ -1,0 +1,86 @@
+
+print("lets draw different shapes using turtle")
+
+print("DRAWING SQUARE ")
+import turtle 
+turtle.Screen().bgcolor("pink")
+turtle.Screen().setup(1000,1000) # screen size
+square = turtle.Turtle()
+
+square_side = 4
+side_length = 200 # shape size
+angle = 360.0 / square_side
+
+for i in range(square_side):
+    square.forward(side_length)
+    square.right(angle) #setting angle
+    square.speed(2) # setting speed of drawing 
+
+turtle.done
+
+print("DRAWING pentagon ")
+import turtle 
+turtle.Screen().bgcolor("violet")
+turtle.Screen().setup(1000,1000) # screen size
+pentagon = turtle.Turtle()
+
+num_sides = 5
+side_length = 110 # shape size
+angle = 360.0 / num_sides
+
+pentagon.penup()
+pentagon.left(50)
+pentagon.forward(140)
+
+pentagon.pendown()
+for i in range(num_sides):
+    pentagon.forward(side_length)
+    pentagon.right(angle) #setting angle
+    pentagon.speed(2) # setting speed of drawing
+
+turtle.done
+
+
+print("DRAWING hexaagon ")
+import turtle 
+turtle.Screen().bgcolor("magenta")
+turtle.Screen().setup(1000,1000) # screen size
+hexaagon = turtle.Turtle()
+
+num_sides = 6
+side_length = 120 # shape size
+angle = 360.0 / num_sides
+
+hexaagon.penup()
+hexaagon.left(-50)
+hexaagon.forward(-140)
+
+hexaagon.pendown()
+for i in range(num_sides):
+    hexaagon.forward(side_length)
+    hexaagon.right(angle) #setting angle
+    hexaagon.speed(2) # setting speed of drawing
+
+turtle.done
+
+print("DRAWING septagon ")
+import turtle 
+turtle.Screen().bgcolor("lightblue")
+turtle.Screen().setup(1000,1000) # screen size
+septagon = turtle.Turtle()
+
+num_sides = 7
+side_length = 120 # shape size
+angle = 360.0 / num_sides
+
+septagon.penup()
+septagon.left(1000)
+septagon.forward(-340)
+
+septagon.pendown()
+for i in range(num_sides):
+    septagon.forward(side_length)
+    septagon.right(angle) #setting angle
+    septagon.speed(2) # setting speed of drawing
+
+turtle.done
