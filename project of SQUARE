@@ -8,7 +8,6 @@ turtle.Screen().setup(1000,1000) # screen size
 square = turtle.Turtle()
 
 square_side = 4
-side_length = 200 # shape size
 angle = 360.0 / square_side
 
 for i in range(square_side):
