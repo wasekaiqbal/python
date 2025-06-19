@@ -1,0 +1,16 @@
+print("counting the number of digits enetered by the user")
+
+digit = int(input("Enter digits as much as you want: "))
+
+number = 0
+
+if digit == 0:
+    number = 1 
+elif digit > 0:
+   while digit > 0:
+    digit = digit //10 
+    number = number + 1
+else:
+    print("incorrect input. PLEASE TRY AGAIN!!")
+
+print("the number of digitd you enetered is", number)  
