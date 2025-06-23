@@ -1,0 +1,15 @@
+print("calculating due amount")
+
+def due (b,d):
+    return b - d
+
+bill = int(input("enter the required bill: "))
+amount = int(input("enter the paid amount: "))
+
+if amount < bill:
+    print(f"the left over amount is {due(bill,amount)}")
+elif bill < amount:
+    print("bill is paid excess")
+else:
+    print("billl paid succesfully")
+    
