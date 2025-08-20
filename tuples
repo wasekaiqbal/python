@@ -1,0 +1,56 @@
+'''tuples = ("tuple", False, 3.2,1)
+print(tuples)# priting different datatypes
+
+tuples = (4,5,6,7,8,9,10,10)
+print(tuples)#previous tuple completely destryped[doesnt exist]
+
+tulpes = tuples + (10,) #adding new elements with + [comma for adding another tuple with another]
+print(tuples)
+
+tuples = (4,5,6,7,8,9,10,10)
+print(tuples.count(10)) #counting number of 10s
+
+tuples = (4,5,6,7,8,9,10,10)
+slice1 = tuples[2:6]#slicing elements of tuples
+print(slice1)
+
+slice1 = tuples[6:]#slicing elements of tuples
+print(slice1)'''
+
+'''
+def palindrom(r):
+    e = len(r) -1
+    s= 0 
+    while(s<e):
+        if(r[s]!= r[e]):
+            return False
+        s +=1
+        e -= 1
+    return True
+
+r = (1,5,10,10,10,5,1)
+
+if (palindrom(r)):
+    print("the tuple is a flip- flop/palindrom")
+else:
+    print("the tuple is not a flip- flop/palindrom")'''
+
+#weather review of 1 week
+
+weather = (1,0,1,0,1,0,1)
+
+sunny = 0
+rainy = 0
+
+for i in range(0,7):
+    if(weather[1]==0):
+        rainy +=1
+    else:
+        sunny +=1
+
+if (rainy>sunny):
+    print("good weather")
+else:
+    print("bad weather")
+
+
